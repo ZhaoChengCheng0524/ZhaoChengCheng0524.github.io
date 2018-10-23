@@ -1,4 +1,8 @@
 html,
-body {
-    align-content:center;
+.customtext {
+    height: 20px;
+    line-height: 150%;
+    FILTER: Glow(Color=#0025fb,Strength=5);
+    font-size:18pt;
+    text-align: center
 }
