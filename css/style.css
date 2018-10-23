@@ -4,9 +4,6 @@
     font-size: 14px;
 }
 
-body {
-    background:url(img/img1.jpg) no-repeat center center;
-}
 
 .d {
     width: 100%;
@@ -14,13 +11,13 @@ body {
     margin: 20px auto;
 }
 
-.a, .n {
+.a, .n,.p {
     text-decoration: none;
     font-size: 6em;
     font-family: "Î¢ÈíÑÅºÚ";
 }
 
-.a {
+.a,.p {
     color: blue;
 }
 
