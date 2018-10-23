@@ -41,6 +41,10 @@ body {
     -o-animation: run 2.4s infinite;
 }
 
+audio{
+    display:none;
+}
+
 @-webkit-keyframes run {
     0%,100% {
         color: #fff;
