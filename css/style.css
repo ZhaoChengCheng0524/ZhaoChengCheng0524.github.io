@@ -1,8 +1,97 @@
-html,
-.customtext {
-    height: 20px;
-    line-height: 150%;
-    FILTER: Glow(Color=#0025fb,Strength=5);
-    font-size:18pt;
-    text-align: center
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+body {
+    background: #f3f5f5;
+}
+
+.d {
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.a, .n {
+    text-decoration: none;
+    font-size: 6em;
+    font-family: "Î¢ÈíÑÅºÚ";
+}
+
+.a {
+    color: blue;
+}
+
+    .a:link {
+        color: blue;
+    }
+
+.n {
+    color: #FFF;
+    text-shadow: 0 0 10px #000,0 0 25px #000;
+}
+
+.def, .h:hover {
+    animation: run 2.4s infinite;
+    -webkit-animation: run 2.4s infinite;
+    -moz-animation: run 2.4s infinite;
+    -ms-animation: run 2.4s infinite;
+    -o-animation: run 2.4s infinite;
+}
+
+@-webkit-keyframes run {
+    0%,100% {
+        color: #fff;
+        text-shadow: 0 0 10px blue,0 0 10px blue;
+    }
+
+    50% {
+        text-shadow: 0 0 10px blue,0 0 40px blue;
+    }
+}
+
+@-moz-keyframes run {
+    0%,100% {
+        color: #fff;
+        text-shadow: 0 0 10px blue,0 0 10px blue;
+    }
+
+    50% {
+        text-shadow: 0 0 10px blue,0 0 40px blue;
+    }
+}
+
+@-o-keyframes run {
+    0%,100% {
+        color: #fff;
+        text-shadow: 0 0 10px blue,0 0 10px blue;
+    }
+
+    50% {
+        text-shadow: 0 0 10px blue,0 0 40px blue;
+    }
+}
+
+@-ms-keyframes run {
+    0%,100% {
+        color: #fff;
+        text-shadow: 0 0 10px blue,0 0 10px blue;
+    }
+
+    50% {
+        text-shadow: 0 0 10px blue,0 0 40px blue;
+    }
+}
+
+@keyframes run {
+    0%,100% {
+        color: #fff;
+        text-shadow: 0 0 10px blue,0 0 10px blue;
+    }
+
+    50% {
+        text-shadow: 0 0 10px blue,0 0 40px blue;
+    }
 }
