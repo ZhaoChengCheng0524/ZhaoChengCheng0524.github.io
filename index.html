@@ -6,7 +6,14 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body bgcolor="#f08088">
-    <audio autoplay="autoplay" controls="controls" loop="loop" preload="auto" src="audio/bgm.mp3">你的浏览器暂时无法播放音乐</audio>
+    <!--音乐 START-->
+    <audio controls="controls" autoplay="autoplay" class="audio" loop="loop" preload="auto">
+        <source src="audio/bgm.mp3" type="audio/mp3">
+        <source src="audio/bgm.ogg" type="audio/ogg">
+        <source src="audio/bgm.aac" type="audio/mp4">
+    </audio>
+    <!--音乐 END-->
+
     <!-----HEADER STAR----->
 
 
@@ -15,7 +22,7 @@
 
         <div class="topcn" style="font:20px/18px 'microsoft yahei'; color:#0FF;text-align:center;">
             <p>&nbsp;</p>
-            <p>致每一个终将光芒万丈的我们</p>  
+            <p>致每一个终将光芒万丈的我们</p>
         </div>
 
         <div class="canvaszz"> </div>
@@ -31,7 +38,7 @@
             </x-sign>
         </p>
     </div>
-  
+
     <!--http://m10.music.126.net/20181023192232/dac2230efbe5bef6156240fb433376b6/ymusic/a74f/8d1e/65bc/9e08e4cf891f77f96a6f3763256c9d98.mp3
     -->
     <script type="text/javascript" src="js/index.js"></script>
