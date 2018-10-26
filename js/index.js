@@ -108,7 +108,6 @@ for (var i = 0; i < maxStars; i++) {
 }
 
 function animation() {
-    alert("都是我还来不及学会勇敢\br让你一个人孤单\br我害怕青春就此离散\br让遗憾成遗憾\br你我从此无关");
     ctx.globalCompositeOperation = 'source-over';
     ctx.globalAlpha = 0.5; //尾巴
     ctx.fillStyle = 'hsla(' + hue + ', 64%, 6%, 2)';
