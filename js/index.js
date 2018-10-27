@@ -1,7 +1,7 @@
-function tips() {
-    var str = "青春的大雨劈头盖脸淋下，有人孤独迷惘，有人渴望飞翔，谁能安然无恙躲过这场雨？后来，我淋过很多场雨，吻过很多朵花，遇到过很多次爱，仰望过很多地方的天空，却永远记得最初的那次心动。";
-    alert(str);
+function welcome() {
+    alert("都是我还来不及学会勇敢\n让你一个人孤单\n我害怕青春就此离散\n让遗憾成遗憾\n你我从此无关");
 }
+
 const signs = document.querySelectorAll('x-sign')
 const randomIn = (min, max) => (
     Math.floor(Math.random() * (max - min + 1) + min)
