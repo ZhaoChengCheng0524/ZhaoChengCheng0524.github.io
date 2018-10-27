@@ -107,7 +107,7 @@ body {
 
 x-sign {
     --interval: 1s;
-    display: block;
+    display: block;background-image: url(../img/icon_background.png)
     text-shadow: 0 0 10px var(--color1), 0 0 20px var(--color2), 0 0 40px var(--color3), 0 0 80px var(--color4);
     will-change: filter, color;
     filter: saturate(60%);
