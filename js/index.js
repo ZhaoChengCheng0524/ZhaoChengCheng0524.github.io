@@ -1,7 +1,3 @@
-function welcome() {
-    alert("都是我还来不及学会勇敢\n让你一个人孤单\n我害怕青春就此离散\n让遗憾成遗憾\n你我从此无关");
-}
-
 const signs = document.querySelectorAll('x-sign')
 const randomIn = (min, max) => (
     Math.floor(Math.random() * (max - min + 1) + min)
