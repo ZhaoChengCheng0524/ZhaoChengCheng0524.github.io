@@ -58,18 +58,17 @@
 	<script language="javascript">
 		function tips(){
 			alert("报名成功后，在网页顶部会有一个QQ群链接，点击链接加群获取有关比赛的安排和更多信息。");
-			window.close();
 		}
 </script>
 </head>
 	
-<body onload="tips()">
+<body>
 	<div style="text-align:center;clear:both;position:absolute;top:20px;left:200px">
 		<script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
 		<script src="/follow.js" type="text/javascript"></script>
 	</div>
 	<a href="https://www.wjx.top/jq/30988995.aspx" target="_blank">
-		<button id="button">点击报名</button>
+		<button id="button" onClick="tips()">点击报名</button>
 	</a>
     <canvas id="mom" style="background:rgba(231,53,53,1.00)"></canvas>
     <script type="text/javascript">
