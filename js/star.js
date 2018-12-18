@@ -2,10 +2,10 @@
 var context;
 
 var arr = new Array();
-var starCount = 800;
+var starCount = 2199;
 
 var rains = new Array();
-var rainCount =20;
+var rainCount = 21;
 
 //初始化画布及context
 function init(){
@@ -31,9 +31,9 @@ var Star = function (){
 		var _r = Math.random();
 
 		if(_r<0.5){
-			this.color = "#655ead";
+			this.color = "#f0f0f0";
 		}else{
-			this.color = "white";
+			this.color = "#efffbd";
 		}
 
 	}
@@ -53,7 +53,7 @@ var Star = function (){
  //画月亮
 function drawMoon(){
 	 var moon = new Image();
-		 moon.src = "./images/moon.jpg"
+		 moon.src = "http://pics.sc.chinaz.com/files/pic/pic9/201607/fpic5658.jpg"
 		 context.drawImage(moon,-5,-10);
 }
 
@@ -79,7 +79,7 @@ window.onload = function() {
 		rains.push(rain);
 	}
 
-	drawMoon();//绘制月亮
+	//drawMoon();//绘制月亮
 	playStars();//绘制闪动的星星
 	playRains();//绘制流星
 
